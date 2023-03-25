@@ -1,0 +1,80 @@
+body{
+    background-image: url('https://img.freepik.com/free-photo/hand-writing-paper-with-pen_1232-1344.jpg?w=1060&t=st=1679753859~exp=1679754459~hmac=bb56db69c0537bdff10d6b6a59d483f4e041088ec3e1c51ed3f66a70e3e86027');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+table{
+    width: 100%;
+    margin: 100px auto;
+    background: skyblue;
+}
+
+table.list{
+    text-align: center;
+    width: 100%;
+}
+
+td{
+    border: 1px solid rgb(204,200,200);
+    text-align: left;
+    padding: 8px 15px;
+}
+
+tr:nth-child(even), table.list thread> tr{
+    background-color: rgb(204,200,200);
+}
+
+input[type="text"],input[type="number"]{
+    width:91%;
+    padding:12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid rgb(165,161,161);
+    border-radius: 4px;
+}
+
+input[type="submit"],input[type="reset"]{
+    background: #eee;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    background: rgb(0, 255, 0);
+}
+
+input[type="reset"]:hover{
+    background: #5844f1;
+}
+
+button{
+    background: #eee;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover{
+    background:#ff0000c6 ;
+}
+
+h2{
+    color: rgb(255, 0, 0);
+}
+
+a{
+    color: rgb(255, 0, 0);
+}
